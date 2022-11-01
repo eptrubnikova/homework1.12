@@ -1,10 +1,8 @@
 package Author;
 
 public class Author {
-
-    public static String authorName;
-    String name;
-    String lastName;
+    private final String name;
+    private final String lastName;
 
     public Author(String name, String lastName) {
         this.name = name;
@@ -12,13 +10,15 @@ public class Author {
     }
 
     public String getName() {
-
-        return name;
+        return this.name;
     }
 
     public String getLastName() {
+        return this.lastName;
+    }
 
-        return lastName;
+    public String toString() {
+        return "Фамилия, имя автора: " + this.name + " " + this.lastName;
     }
 
 }
