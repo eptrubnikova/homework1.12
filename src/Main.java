@@ -16,7 +16,6 @@ public class Main {
         // System.out.println("name.book = " + book2.getNameBook());
         //System.out.println("book.yearPublisher = " + book2.getYearPublisher());
         //System.out.println("book.authorName = " + book2.getAuthor() );
-
         System.out.print(book2);
         System.out.println();
 
