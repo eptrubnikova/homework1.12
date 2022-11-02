@@ -12,7 +12,7 @@ public class Main {
         System.out.print(book1);
         System.out.println();
 
-        Book book2 = book1;
+        Book book2 = new Book("Про Git", new Author("Бен", "Штрауб"), 2014);
         // System.out.println("name.book = " + book2.getNameBook());
         //System.out.println("book.yearPublisher = " + book2.getYearPublisher());
         //System.out.println("book.authorName = " + book2.getAuthor() );
