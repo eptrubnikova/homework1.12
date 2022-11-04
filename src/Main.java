@@ -19,8 +19,17 @@ public class Main {
         System.out.print(book2);
         System.out.println();
 
+        Book book3 = new Book("Про Git", new Author("Том", "Штрауб"), 2014);
+        System.out.print(book3);
+        System.out.println();
+
         System.out.println(book1.equals(book2));
         System.out.println(book1.hashCode());
         System.out.println(book2.hashCode());
+
+        System.out.println(book1.equals(book3));
+        System.out.println(book1.hashCode());
+        System.out.println(book3.hashCode());
+
     }
 }
